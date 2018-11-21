@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+}
+.downarrow{
+    text-align: center;
+    margin-top:0.9%;
+    margin-bottom:3%;
+    /* position: absolute;
+    bottom: 0; */
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    padding: 100px 0px 100px 0px ;
+}
+body,html{
+    scroll-behavior: smooth;
+    background: #414042 !important;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+}
+.desc1
+{
+   text-align: center;
+margin-bottom:2%;
+}
+
+.spef
+{
+    border:2px solid #f15a22;
+}
+
+
+/* Navbar */
+.navbar{
+    padding: 0px 16px; 
+    line-height: 30px;
+    background: #414042;
+    box-shadow: 2px 2px 15px 1px #000000;
+}
+.navbar img{
+    height: 40px;
+    width: 95px;
+}
+#mynavbar{
+    padding: 0px 16px; 
+    line-height: 30px;
+    background: #414042;
+    box-shadow: 2px 2px 15px 1px #000000;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: #414042;
+    margin: 0px auto;
+    padding: 20px 0px;
+    color: #fff;
+}
+footer h4{
+    color: #f58220;
+}
+.copyrights{
+    color: #a7a9ac;
+}
+footer .btn{
+    color: #ffffff;
+}
+footer .btn:hover{
+    color: #ffffff;
+    opacity: 0.5;
+}
+ span{
+    color: #ed1d24;
+}
+
+#why,#what,#who,#how,.mainpage,#where,#partners,#innovations
+{
+    width:100%;
+    height:100%;
+    margin-bottom: 2%;
+    color: #ffffff;
+}
+
+.dest
+{
+    margin:0!important;
+}
+
+.mup
+{
+    margin-top: 2%;
+    margin-bottom: 5%!important;
+}
+
+
+.row
+{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.metrics
+{
+    margin-top:6%;
+}
+
+ 
+#why i,#what i,#who i,#how i,.mainpage i,#where i,#partners i,#innovations i {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 8px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.img1
+{
+
+margin-top:10%;
+margin-bottom:0.2%;
+
+}
+
+.card h5{
+    color: #000000;
+}
+
+/* Mentor Owl Carousel */
+
+.testimonial{
+    background: #414042;
+    text-align: center;
+    padding: 30px 30px 50px;
+    margin: 0 15px 100px;
+    position: relative;
+ }
+ .testimonial:before,
+ .testimonial:after{
+    content: "";
+    border-top: 40px solid  #414042;
+    border-right: 125px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+ }
+ .testimonial:after{
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
+ }
+ .testimonial .icon{
+    display: inline-block;
+    font-size: 80px;
+    color: #bd986b;
+    margin-bottom: 20px;
+    opacity: 0.6;
+ }
+ .testimonial .description{
+    font-size: 16px;
+    color: #777;
+    text-align: justify;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    letter-spacing: -1px;
+ }
+ .testimonial .testimonial-content{
+    width: 100%;
+    position: absolute;
+    left: 0;
+ }
+ .testimonial .pic{
+    display: inline-block;
+    border: 6px solid white;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #daad86;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+ }
+ .testimonial .pic img{
+    width: 100%;
+    height: auto;
+ }
+ .testimonial .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+ }
+ .testimonial .post{
+    display: block;
+    font-size: 24px;
+    color: #ffd9b8;
+ }
+ .owl-theme .owl-controls{
+    margin-top: 60px;
+ }
+ .owl-theme .owl-controls .owl-page span{
+    width: 32px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #bd986b;
+    margin: 5px;
+    opacity: 1;
+ }
+ .owl-theme .owl-controls .owl-page.active span,
+ .owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ffd9b8;
+    border-color: #fff;
+ }
+    .pic img{
+        width: 100px !important;
+        height: 50px;
+    }
+
+    #video-background{
+        /*  making the video fullscreen  */
+          position: fixed;
+          right: 0; 
+          bottom: 0;
+          min-width: 100%; 
+          min-height: 100%;
+          width: auto; 
+          height: auto;
+          z-index: -100;
+        }
+
+        .mainpage{
+            background: none!important;
+        }
+
+
+.what_inv
+{
+    visibility: hidden;
+    display: none;
+}
+
+.what_vis
+{
+    visibility: visible;
+}
+
+#who
+{
+    height: 30%;
+}
+
+.img2 img
+{
+    width:104px!important;
+    height: 52px!important;
+}
+.part
+{
+    margin-bottom: 3%;
+}
+
+#partners
+{
+    height: 40%;
+    padding-top:0!important;
+}
+
+#mentors
+{
+    height: 70%;
+    padding-bottom: 0!important;
+}
+#what
+{
+    min-height: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+.img1
+{
+margin-top:20vh;
+}
+
+
+.desc1 h4
+{
+    font-size: 2.4vh!important;
+}
+
+.desc1
+{
+   text-align: center;
+margin-top:10%;
+
+}
+
+.mm h2
+{
+    margin-top:20vh;
+    font-size: 5vh;
+    text-align: center;
+}
+.mm h4
+
+    {
+    margin-top:5vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.mmi img
+{
+    margin-top: 5vh;
+    width:100vw;
+    height: 30vh;
+
+}
+
+.defect
+{
+    display: none;
+}
+
+ .da2
+ {
+    margin-top:15vh;
+    margin-bottom:5vh;
+ }
+
+.what_inv
+{
+    visibility: visible;
+    display:block;
+
+}
+
+.what-vis
+{
+    
+    display: none;
+    
+}
+
+.what_inv h2
+{
+text-align: center;
+font-size: 5vh;
+}
+
+.what_inv p
+{
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+}
+
+#what
+{
+    height: 290%;
+}
+
+#who
+{
+    height:75vh;
+}
+
+.how_sub h2
+{
+text-align: center;
+font-size: 5vh;
+}
+
+#how
+{
+    height: 120%;
+}
+.where_sub h2
+{
+text-align: center;
+font-size: 5vh;
+
+}
+
+.where_sub p
+{
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+}
+
+#where
+{
+    height: 120%;
+}
+
+.inn_sub h2
+{
+text-align: center;
+font-size: 5vh;
+}
+
+.inn_sub p
+{
+    margin-top: 5vh;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.mup h3
+{
+text-align: center;
+font-size:4vh;
+}
+
+#innovations
+{
+    height:200%;
+}
+
+.men_sub h2
+{
+text-align: center;
+font-size: 5vh;
+}
+
+#partners
+{
+    height: 160%;
+ 
+}
+
+.par_sub img
+{
+    margin-left: 30%;
+    margin-bottom:5%;
+}
+}
+
+
+
+    
