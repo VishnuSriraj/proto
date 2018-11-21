@@ -448,4 +448,21 @@ font-size: 5vh;
 
 
 
+#what{
+    overflow: hidden;
+    padding: 5% 0;
+}
+
+#what .card{
+    height: 180px;
+    margin: 5px;
+    text-align: center;
+
+}
+#what .card i{
+    font-size: 30px;
+}
+
+
+
     
