@@ -8,11 +8,12 @@
     /* position: absolute;
     bottom: 0; */
 }
-.btn-danger{
+.btn-danger,.btn-outline-primary{
     background: #f15a22!important;
     border:#f15a22!important;
+    color:#ffffff!important;
 }
-.btn-danger:hover{
+.btn-danger:hover,.btn-outline-primary:hover{
     background: #f5834e!important;
     border: #f5834e!important;
 }
