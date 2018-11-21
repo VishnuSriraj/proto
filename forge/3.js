@@ -4,53 +4,30 @@ var h2 = document.getElementById("h2");
 var h3 = document.getElementById("h3");
 var h4 = document.getElementById("hey1");
 
+h1.onclick=function(){
+  changeim();
+}
 
-h1.onmouseover = function() {
- 
+function changeim()
+{
+  change.src="../assets/images/Proto contents/17.1 Smart Dehuller/mup.jpg"
+}
+h2.onclick=function(){
+  changeim2();
+}
 
-document.getElementById("sai2").style.visibility = "visible";
-document.getElementById("sai2").style.opacity = "0.85";
+function changeim2()
+{
+  change.src="../assets/images/Proto contents/18.1 Gloveit/mup.jpg"
+}
+h3.onclick=function(){
+  changeim3();
+}
 
-
-h4.innerText="Protosem 17.1"
-
-
-  
-
-};
-
-h1.onmouseout = function() {
-  change.src="4.jpg"
-  document.getElementById("sai2").style.visibility = "hidden";
-};
-
-
-h2.onmouseover = function() {
-  
-  document.getElementById("sai2").style.visibility = "visible";
-  document.getElementById("sai2").style.opacity = "0.85";
-   document.getElementById("change").style.height="70%";
-  h4.innerText="Protosem 18.1";
-
-};
-
-h2.onmouseout = function() {
-
-  document.getElementById("sai2").style.visibility = "hidden";
-};
-
-
-h3.onmouseover = function() {
-
-  document.getElementById("sai2").style.visibility = "visible";
-  document.getElementById("sai2").style.opacity = "0.85";
-  h4.innerText="Protosem 18.2";
-};
-
-h3.onmouseout = function() {
-  change.src="4.jpg"
-  document.getElementById("sai2").style.visibility = "hidden";
-};
+function changeim3()
+{
+  change.src="../assets/images/Proto contents/18.2 napkin/mup.jpg"
+}
 
 $(function(){
  
